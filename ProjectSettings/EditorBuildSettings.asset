@@ -20,4 +20,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Char2.unity
     guid: 6018e22725ac10948ae1a58866164935
+  - enabled: 1
+    path: Assets/Scenes/Psikologi.unity
+    guid: baf66f82acecc414881a9ff692f17eef
+  - enabled: 1
+    path: Assets/Scenes/Char1-2.unity
+    guid: 104ae52c9087b6c43bec3a14310c5bcf
   m_configObjects: {}
