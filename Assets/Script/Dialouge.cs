@@ -8,6 +8,7 @@ public class Dialouge : MonoBehaviour
     public TextMeshProUGUI textComponent;
     public string[] lines;
     public float textSpeed;
+    public AudioClip AudioClip;
 
     private int index;
 
@@ -38,6 +39,7 @@ public class Dialouge : MonoBehaviour
     void StartDialouge()
     {
         index = 0;
+        AudioManager.instance.PlayClip(AudioClip);
         StartCoroutine(TypeLine());
     }
 
@@ -56,6 +58,7 @@ public class Dialouge : MonoBehaviour
         {
             index++;
             textComponent.text = string.Empty;
+            AudioManager.instance.PlayClip(AudioClip);
             StartCoroutine(TypeLine());
 
         }
