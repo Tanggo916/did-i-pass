@@ -68,7 +68,7 @@ public class QuizManager : MonoBehaviour
 
         if (unansweredQuestions.Count == 0)
         {
-            SceneManager.LoadScene("MainMenu");
+            SceneManager.LoadScene("Char1-3");
         }
        
     }
