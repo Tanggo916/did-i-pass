@@ -32,6 +32,7 @@ public class ScoreManager : MonoBehaviour
             }
             else if (score < 70 )
             {
+                textMeshProUGUI.text = score.ToString();
                 lifeRemaining--;
 
                 if (lifeRemaining == 0)
