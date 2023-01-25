@@ -474,7 +474,7 @@ GameObject:
   - component: {fileID: 383501720}
   - component: {fileID: 383501719}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: For Pause
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -669,7 +669,7 @@ GameObject:
   - component: {fileID: 478169754}
   - component: {fileID: 478169755}
   m_Layer: 0
-  m_Name: Square
+  m_Name: Character 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -817,7 +817,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0.060653254, g: 0.14345999, b: 0.2735849, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -1014,7 +1014,7 @@ GameObject:
   - component: {fileID: 735270262}
   - component: {fileID: 735270263}
   m_Layer: 0
-  m_Name: Triangle
+  m_Name: Character 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
