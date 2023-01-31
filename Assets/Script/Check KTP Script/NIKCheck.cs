@@ -2,10 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class KTPcheck : MonoBehaviour
+public class NIKCheck : MonoBehaviour
 {
-    public static string nameObj;
-
     // Start is called before the first frame update
     void Start()
     {
@@ -17,11 +15,4 @@ public class KTPcheck : MonoBehaviour
     {
         
     }
-
-    private void OnMouseDown()
-    {
-        nameObj = gameObject.name;
-        Destroy(gameObject); 
-    }
-
 }

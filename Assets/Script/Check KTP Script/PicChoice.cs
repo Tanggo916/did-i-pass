@@ -12,7 +12,7 @@ public class PicChoice : MonoBehaviour
         {
             Choice.Instance.ShowBox("Sus??", () => {
                 Choice.Instance.ShowBox("Sus??", () => {
-                    System.Console.WriteLine("Sus");
+                    Debug.Log("Sus");
                 },() => {
                     Debug.Log("Not Sus");
                 });
