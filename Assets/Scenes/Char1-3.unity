@@ -1027,8 +1027,8 @@ MonoBehaviour:
   lines:
   - Spektakuler, berhasil menjawab dan benar semua.
   - Sekarang bantu aku pada tes terakhir
-  textSpeed: 0.02
-  AudioClip: {fileID: 8300000, guid: 1b9a653cc4f683445a0c115ee00efca2, type: 3}
+  textSpeed: 0.05
+  AudioClip: {fileID: 8300000, guid: 5bb1ca189952e7a46b2f9b0bb01bac77, type: 3}
 --- !u!1 &1657480736
 GameObject:
   m_ObjectHideFlags: 0

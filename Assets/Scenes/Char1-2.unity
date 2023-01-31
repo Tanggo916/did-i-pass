@@ -948,8 +948,8 @@ MonoBehaviour:
   lines:
   - Wow Tes pertama berhasil dilewati
   - Sekarang bantu saya melanjutkan tes kedua
-  textSpeed: 0.02
-  AudioClip: {fileID: 8300000, guid: 1b9a653cc4f683445a0c115ee00efca2, type: 3}
+  textSpeed: 0.05
+  AudioClip: {fileID: 8300000, guid: 5bb1ca189952e7a46b2f9b0bb01bac77, type: 3}
 --- !u!1 &1645822815
 GameObject:
   m_ObjectHideFlags: 0
