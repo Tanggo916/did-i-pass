@@ -23,14 +23,14 @@ public class ScoreManager : MonoBehaviour
         if (hasSpawned == false)
         {
             score = Random.Range(1, 100);
-            if (score >= 70)
+            if (score >= 80)
             {
                 textMeshProUGUI.text = score.ToString();
                 hasSpawned = true;
                 OnPlayerComplete?.Invoke();
 
             }
-            else if (score < 70 )
+            else if (score < 80 )
             {
                 textMeshProUGUI.text = score.ToString();
                 lifeRemaining--;

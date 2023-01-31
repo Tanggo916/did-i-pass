@@ -46,13 +46,13 @@ public class QuizManager : MonoBehaviour
 
         if (currentQuestion.isTrue)
         {
-            trueAnswerText.text = "KAMU BENAR";
-            falseAnswerText.text = "KAMU SALAH";
+            trueAnswerText.text = "BENAR";
+            falseAnswerText.text = "SALAH";
         }
         else
         {
-            trueAnswerText.text = "KAMU SALAH";
-            falseAnswerText.text = "KAMU BENAR";
+            trueAnswerText.text = "SALAH";
+            falseAnswerText.text = "BENAR";
         }
 
         
