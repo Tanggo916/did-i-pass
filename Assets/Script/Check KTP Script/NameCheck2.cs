@@ -1,8 +1,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class DateCheck : MonoBehaviour
+public class NameCheck2 : MonoBehaviour
 {
     void Update()
     {
@@ -10,12 +11,13 @@ public class DateCheck : MonoBehaviour
         {
             Choice.Instance.ShowBox("Sus??", () => {
                 Choice.Instance.ShowBox("Sus??", () => {
-                    
                     Debug.Log("Sus");
                 }, () => {
+                    Destroy(gameObject);
                     Debug.Log("Not Sus");
                 });
             }, () => {
+                SceneManager.LoadScene("Char2-2");
                 Debug.Log("Not Sus");
             });
         }

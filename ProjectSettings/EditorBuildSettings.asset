@@ -53,4 +53,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HasilFoto.unity
     guid: 2364d37ce45261e4785330a9269e0111
+  - enabled: 1
+    path: Assets/Scenes/#KTP Check.unity
+    guid: c57f11c7280b67f49aaf31ab269d4ead
+  - enabled: 1
+    path: Assets/Scenes/#KTP Check 2.unity
+    guid: a455c2d521a047b4c8721f1ee6045342
   m_configObjects: {}

@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PicChoice : MonoBehaviour
 {
@@ -17,6 +18,8 @@ public class PicChoice : MonoBehaviour
                     Debug.Log("Not Sus");
                 });
             }, () => {
+                Destroy(gameObject);
+                SceneManager.LoadScene("Char1-2");
                 Debug.Log("Not Sus");
             });
         }

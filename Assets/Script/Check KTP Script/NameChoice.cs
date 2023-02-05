@@ -12,9 +12,11 @@ public class NameChoice : MonoBehaviour
                 Choice.Instance.ShowBox("Sus??", () => {
                     Debug.Log("Sus");
                 }, () => {
+                    Destroy(gameObject);
                     Debug.Log("Not Sus");
                 });
             }, () => {
+                
                 Debug.Log("Not Sus");
             });
         }
