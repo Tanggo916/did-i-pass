@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Psikologi.unity
     guid: baf66f82acecc414881a9ff692f17eef
   - enabled: 1
+    path: Assets/Scenes/Psikologi 2.unity
+    guid: a4bf43935cccbbd428f9c499bd93130e
+  - enabled: 1
     path: Assets/Scenes/Char1-2.unity
     guid: 104ae52c9087b6c43bec3a14310c5bcf
   - enabled: 1
@@ -39,6 +42,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Tes3.unity
     guid: 425ac77a796720e4e99eb87b202c2b6f
   - enabled: 1
+    path: Assets/Scenes/Tes3-2.unity
+    guid: 36ae93954cff1a9438b891f822a0123a
+  - enabled: 1
     path: Assets/Scenes/SesiFoto.unity
     guid: 9e8f7d62dbe9c8547a97a748601bf411
+  - enabled: 1
+    path: Assets/Scenes/SesiFoto2.unity
+    guid: 92a82526127b3df468c0a9dc5c46a099
+  - enabled: 1
+    path: Assets/Scenes/HasilFoto.unity
+    guid: 2364d37ce45261e4785330a9269e0111
   m_configObjects: {}

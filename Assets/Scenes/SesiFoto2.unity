@@ -771,10 +771,10 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 63536ea6a48265f4c993e3cb8b922239, type: 3}
+  m_SortingLayerID: -661763325
+  m_SortingLayer: 1
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 67805adff5f980e45a3899253473368e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -793,12 +793,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 774941566}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -12.959999, y: 61.559994, z: -9719.999}
+  m_LocalPosition: {x: -3.2399998, y: 98.28, z: -9719.999}
   m_LocalScale: {x: 187.04956, y: 151.19998, z: 108}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1220696872}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1034757359
 GameObject:
@@ -876,12 +876,12 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1034757359}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.5599995, y: -303.47998, z: -9719.999}
-  m_LocalScale: {x: 108, y: 108, z: 108}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.07, y: -2.81, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1220696872}
+  m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1220696871
@@ -916,9 +916,8 @@ RectTransform:
   m_Children:
   - {fileID: 440579613}
   - {fileID: 1559300103}
-  - {fileID: 774941568}
   - {fileID: 1657706151}
-  - {fileID: 1034757361}
+  - {fileID: 774941568}
   m_Father: {fileID: 133312117}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -979,7 +978,7 @@ GameObject:
   - component: {fileID: 1559300105}
   - component: {fileID: 1559300108}
   m_Layer: 5
-  m_Name: Btn_Ambil_Foto
+  m_Name: Button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1051,13 +1050,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1559300108}
-        m_TargetAssemblyTypeName: AudioButton, Assembly-CSharp
+        m_TargetAssemblyTypeName: AudioButton2, Assembly-CSharp
         m_MethodName: PlaySound
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 14
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -1109,7 +1108,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1559300102}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dabffd69dc6b1941a767a8353abb789, type: 3}
+  m_Script: {fileID: 11500000, guid: 45c8e3d92c25be54db713c1529343488, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   audioSource: {fileID: 309040665}
@@ -1195,7 +1194,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1220696872}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2029262123
 GameObject:
