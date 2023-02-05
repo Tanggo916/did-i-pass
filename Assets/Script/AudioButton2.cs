@@ -28,7 +28,7 @@ public class AudioButton2 : MonoBehaviour
         }
         else
         {
-            SceneManager.LoadScene("HasilFoto2");
+            SceneManager.LoadScene("HasilFoto 2");
         }
 
     }

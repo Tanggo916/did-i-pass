@@ -16,7 +16,7 @@ public class NIKCheck : MonoBehaviour
                     Destroy(gameObject);
                     Debug.Log("Sus");
                 },() => {
-                    SceneManager.LoadScene("Char1-2");
+                    /*SceneManager.LoadScene("Char1-2");*/
                     Debug.Log("Not Sus");
                 });
             }, () => {
