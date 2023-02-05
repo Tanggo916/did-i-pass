@@ -946,7 +946,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   textComponent: {fileID: 112637341}
   lines:
-  - Halo, Nama saya Johny
+  - Halo, Nama saya Toni Turuae
   - Saya ingin membuat SIM, tolong bantu saya membuatnya
   textSpeed: 0.05
   AudioClip: {fileID: 8300000, guid: 5bb1ca189952e7a46b2f9b0bb01bac77, type: 3}
